@@ -7,8 +7,6 @@ author_profile: true
 
 {% include base_path %}
 
-獲獎與榮譽 Honors & Awards
-======
 * IEEE Tainan Section Best Young Professional Member Award 2025
 * 國科會優秀年輕學者專題研究計畫 2025
 * 國立中正大學青年學者獎 2024

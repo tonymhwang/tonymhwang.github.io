@@ -10,7 +10,7 @@ author_profile: true
 獎項
 ------
 * <span class="yr">2025</span><span>IEEE Tainan Section Best Young Professional Member Award</span>
-* <span class="yr">2025</span><span>國科會優秀年輕學者專題研究計畫</span>
+* <span class="yr">2025</span><span>國科會優秀年輕學者研究計畫</span>
 * <span class="yr">2025</span><span>國立中正大學教師優良教學獎</span>
 * <span class="yr">2024</span><span>國立中正大學青年學者獎</span>
 * <span class="yr">2024</span><span>國立中正大學工學院青年學者獎</span>

@@ -12,8 +12,8 @@ title_separator          : "-"
 name                     : &name "Ming-Hung Wang 王銘宏"
 description              : &description "Associate Professor, Department of Computer Science and Information Engineering, National Chung Cheng University"
 url                      : https://tonymhwang.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : "/mhwang.github.io" # the subpath of your site, e.g. "/blog"
-repository               : "tonymhwang/mhwang.github.io"
+baseurl                  : "" # the subpath of your site, e.g. "/blog"
+repository               : "tonymhwang/tonymhwang.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160

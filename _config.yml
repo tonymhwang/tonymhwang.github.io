@@ -7,13 +7,13 @@
 
 # Site Settings
 locale                   : "zh-TW"
-title                    : "Ming-Hung Wang"
+title                    : "Ming-Hung Wang 王銘宏"
 title_separator          : "-"
-name                     : &name "Ming-Hung Wang"
-description              : &description "Assistant Professor at Feng Chia University"
+name                     : &name "Ming-Hung Wang 王銘宏"
+description              : &description "Associate Professor, Department of Computer Science and Information Engineering, National Chung Cheng University"
 url                      : https://tonymhwang.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "tonymhwang.github.io"
+baseurl                  : "/mhwang.github.io" # the subpath of your site, e.g. "/blog"
+repository               : "tonymhwang/mhwang.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
@@ -78,11 +78,11 @@ analytics:
 
 # Site Author
 author:
-  name             : "Ming-Hung Wang"
-  avatar           : "profile.png"
-  bio              : "Assistant Professor of Department of Information Engineering and Computer Science at Feng Chia University."
+  name             : "Ming-Hung Wang 王銘宏"
+  avatar           : "profile.jpg"
+  bio              : "Associate Professor, Department of Computer Science and Information Engineering, National Chung Cheng University"
   location         : "Taiwan"
-  employer         :
+  employer         : "National Chung Cheng University"
   googlescholar    : "https://scholar.google.com.tw/citations?user=ZuP97eoAAAAJ"
   email            : "tonymhwang@gmail.com"
   uri              :

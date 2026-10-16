@@ -19,12 +19,12 @@ Selected Journal Articles
 * **CrowdDC: Ranking from Crowdsourced Paired Comparison with Divide-and-Conquer.** Ming-Hung Wang, Chia-Yuan Zhang, Jia-Ru Song. *IEEE Transactions on Computational Social Systems, 2024, 11 (2), 3015-3021. (SCI Q1)*
 * **An SDN-Driven Reliable Transmission Architecture for Enhancing Real-Time Video Streaming Quality.** Ming-Hung Wang, Ting-Shen Hsieh, Yu-Yao Tseng, Po-Wen Chi. *IEEE MultiMedia, 2024, 31 (1), 54-64. (SCI)*
 * **Analyzing Image-based Political Propaganda in Referendum Campaigns: From Elements to Strategies.** Ming-Hung Wang, Wei-Yang Chang, Kuan-Hung Kuo, Kuo-Yu Tsai. *EPJ Data Science, 2023, 12, 29. (SCI Q1, SSCI Q1)* <a class="cite" href="https://scholar.google.com/scholar?cites=2762432238896863867">Cited by 24</a>
-* **Learning to Recognize Sockpuppets in Online Political Discussions.** Nhut-Lam Nguyen, Ming-Hung Wang\*, and Chyi-Ren Dow. *IEEE Systems Journal, 2022, 16 (2), 1873-1884. (SCI)*
+* **Learning to Recognize Sockpuppets in Online Political Discussions.** Nhut-Lam Nguyen, Ming-Hung Wang\*, Chyi-Ren Dow. *IEEE Systems Journal, 2022, 16 (2), 1873-1884. (SCI)*
 * **Positioning and Categorizing Mass Media Using Reaction Emojis on Facebook.** Ming-Hung Wang\*. *The Computer Journal, 2021, 64 (3), 451-461. (SCI)*
-* **The Evolution of Rumors on a Closed Social Networking Platform During COVID-19: Algorithm Development and Content Study.** Andrea W Wang, Jo-Yu Lan, Ming-Hung Wang, and Chihhao Yu. *JMIR Medical Informatics, 2021, 9 (11), e30467. (SCI)*
-* **Blurring Political Leanings of Messages on Social Networks Using Deniable Steganography.** Ming-Hung Wang and Po-Wen Chi. *IEEE Access, 2019, 7, 87692-87703. (SCI Q1)*
-* **Estimating Ideological Scores of Facebook Pages: An Empirical Study in Taiwan.** Ming-Hung Wang, Alex Chuan-Hsien Chang, Kuan-Ta Chen, and Chin-Laung Lei. *The Computer Journal, 2017, 60 (11), 1675-1686. (SCI)*
-* **SDUDP: A Reliable UDP-based Transmission Protocol over SDN.** Ming-Hung Wang, Lung-Wen Chen, Po-Wen Chi, and Chin-Laung Lei. *IEEE Access, 2017, 5, 5904-5916. (SCI Q1)* <a class="cite" href="https://scholar.google.com/scholar?cites=12783852121727367466">Cited by 46</a>
+* **The Evolution of Rumors on a Closed Social Networking Platform During COVID-19: Algorithm Development and Content Study.** Andrea W Wang, Jo-Yu Lan, Ming-Hung Wang, Chihhao Yu. *JMIR Medical Informatics, 2021, 9 (11), e30467. (SCI)*
+* **Blurring Political Leanings of Messages on Social Networks Using Deniable Steganography.** Ming-Hung Wang, Po-Wen Chi. *IEEE Access, 2019, 7, 87692-87703. (SCI Q1)*
+* **Estimating Ideological Scores of Facebook Pages: An Empirical Study in Taiwan.** Ming-Hung Wang, Alex Chuan-Hsien Chang, Kuan-Ta Chen, Chin-Laung Lei. *The Computer Journal, 2017, 60 (11), 1675-1686. (SCI)*
+* **SDUDP: A Reliable UDP-based Transmission Protocol over SDN.** Ming-Hung Wang, Lung-Wen Chen, Po-Wen Chi, Chin-Laung Lei. *IEEE Access, 2017, 5, 5904-5916. (SCI Q1)* <a class="cite" href="https://scholar.google.com/scholar?cites=12783852121727367466">Cited by 46</a>
 {: .pub-list}
 
 Selected Conference Proceedings
@@ -36,16 +36,16 @@ Selected Conference Proceedings
 * **MemeUMPIRE: Zero-Shot Multi-Agent Debate with Judge for Explainable Harmful-Meme Reasoning.** Sih-Cin Huang, Meng-Rong Wu, Tuang Hee Low, Tomohiro Morikawa, Harry Chandra Tanuwidjaja, Takeshi Takahashi, Ming-Hung Wang. *IEEE ICC 2026.*
 * **Sockpuppets Detection Using Markov-Driven Graph Convolutional Networks with Ensemble Learning.** Chun-I Fan, Ming-Feng Tsai, Chun-Pin Hu, Ming-Hung Wang. *IEEE DSC 2024.*
 * **DRM-SN: Detecting Reused Multimedia Content on Social Networks.** Wen-Hsiang Li, Yao-Cheng Lu, Wen-Kai Hsiao, Yu-Yao Tseng, Ming-Hung Wang. *IEEE MIPR 2024.*
-* **Advancing Stance Detection of Political Fan Pages: A Multimodal Approach.** Kuan-Hung Kuo, Ming-Hung Wang, Hung-Yu Kao and Yu-Chen Dai. *The Web Conference 2024 (WWW 2024, short paper).*
+* **Advancing Stance Detection of Political Fan Pages: A Multimodal Approach.** Kuan-Hung Kuo, Ming-Hung Wang, Hung-Yu Kao, Yu-Chen Dai. *The Web Conference 2024 (WWW 2024, short paper).*
 * **Take Expert Advice Judiciously: Combining Groupwise Calibrated Model Probabilities with Expert Predictions.** Sumeet Gupta, Shweta Jain, Shashi Shekhar Jha, Pao-Ann Hsiung, Ming-Hung Wang. *ECAI 2023.* <a class="cite" href="https://scholar.google.com/scholar?cites=16258739437660374316">Cited by 10</a>
 * **POSTER: How Do Suspicious Accounts Participate in Online Political Discussions? A Preliminary Study in Taiwan.** Ming-Hung Wang, Yu-Chen Dai. *ACM ASIACCS 2020 (poster).*
 * **Detecting Potential Cyber Armies of Election Campaigns Based on Behavioral Analysis.** Ming-Hung Wang, Nhut-Lam Nguyen, Chyi-Ren Dow. *Complex Networks 2018.*
 * **Infection Categorization Using Deep Autoencoder.** Ming-Hung Wang, Meng-Han Tsai, Wei-Chieh Yang, Chin-Laung Lei. *IEEE INFOCOM 2018 (poster).*
-* **Boosting Election Prediction Accuracy by Crowd Wisdom on Social Forums.** Ming-Hung Wang and Chin-Laung Lei. *IEEE CCNC 2016.* <a class="cite" href="https://scholar.google.com/scholar?cites=14053326928754986797">Cited by 21</a>
-* **SDN Storage: A Stream-based Storage System over Software-defined Networks.** Ming-Hung Wang, Po-Wen Chi, Jing-Wei Guo, and Chin-Laung Lei. *IEEE INFOCOM 2016 (poster).* <a class="cite" href="https://scholar.google.com/scholar?cites=649653779522671073">Cited by 12</a>
-* **Modelling Polarity of Articles and Identifying Influential Authors through Social Movements.** Ming-Hung Wang and Chin-Laung Lei. *IEEE SMC 2015.*
-* **Understanding Potential Microtask Workers for Paid Crowdsourcing.** Ming-Hung Wang, Kuan-Ta Chen, Shuo-Yang Wang, and Chin-Laung Lei. *AAAI HCOMP 2013 (Works-in-Progress Track).*
-* **Privacy Crisis due to Crisis Response on the Web.** Shao-Yu Wu, Ming-Hung Wang, and Kuan-Ta Chen. *IEEE TrustCom 2011.*
+* **Boosting Election Prediction Accuracy by Crowd Wisdom on Social Forums.** Ming-Hung Wang, Chin-Laung Lei. *IEEE CCNC 2016.* <a class="cite" href="https://scholar.google.com/scholar?cites=14053326928754986797">Cited by 21</a>
+* **SDN Storage: A Stream-based Storage System over Software-defined Networks.** Ming-Hung Wang, Po-Wen Chi, Jing-Wei Guo, Chin-Laung Lei. *IEEE INFOCOM 2016 (poster).* <a class="cite" href="https://scholar.google.com/scholar?cites=649653779522671073">Cited by 12</a>
+* **Modelling Polarity of Articles and Identifying Influential Authors through Social Movements.** Ming-Hung Wang, Chin-Laung Lei. *IEEE SMC 2015.*
+* **Understanding Potential Microtask Workers for Paid Crowdsourcing.** Ming-Hung Wang, Kuan-Ta Chen, Shuo-Yang Wang, Chin-Laung Lei. *AAAI HCOMP 2013 (Works-in-Progress Track).*
+* **Privacy Crisis due to Crisis Response on the Web.** Shao-Yu Wu, Ming-Hung Wang, Kuan-Ta Chen. *IEEE TrustCom 2011.*
 {: .pub-list}
 
 Other Writings

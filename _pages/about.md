@@ -8,12 +8,15 @@ redirect_from:
   - /about.html
 ---
 
-News
-------
+<div class="news-box" markdown="1">
+
+<p class="news-box__label">News</p>
 
 We are recruiting graduate/undergraduate students interested in **cybersecurity** and **computational social science**! Feel free to contact me via tonymhwang at gmail.com for more information.
 
 我們目前正在招募對**資訊安全**與**計算社會科學**感興趣的博士生、碩士生及專題生，歡迎透過 tonymhwang at gmail.com 與我聯繫。
+
+</div>
 
 About
 ------

@@ -11,30 +11,32 @@ redirect_from:
 {% include base_path %}
 
 學歷 Education
-======
+------
 * Ph.D. in Electrical Engineering, National Taiwan University, 2017
 * M.S. in Communication Engineering, National Tsing Hua University, 2010
 * B.S. in Computer Science, National Tsing Hua University, 2008
+{: .plain-list}
 
 經歷 Experience
-======
-* 國立中正大學資訊工程學系 副教授 2024/08 -<br>Associate Professor, Department of Computer Science and Information Engineering, National Chung Cheng University. 2024/08 -
-* 國立中正大學巨量資料科技研究中心 主任 2025/04 -<br>Director, Big Data Technology Research Center, National Chung Cheng University. 2025/04 -
-* 國立中正大學資訊處技術發展組 組長 2024/02 -<br>Head of Research and Development, Office of Information Technology, National Chung Cheng University. 2024/02 -
-* 中華民國資訊安全學會 秘書長 2024/09 - 2026/01<br>Secretary-general, Chinese Cryptology and Information Security Association. 2024/09 - 2026/01
-* 中華民國資訊安全學會 監事 2021/09 - 2024/08<br>Supervisor, Chinese Cryptology and Information Security Association. 2021/09 - 2024/08
-* 中華民國資訊安全學會 教育與推廣委員會主委 2022/01 - 2024/08<br>Chairman of the Education and Promotion Committee, Chinese Cryptology and Information Security Association. 2022/01 - 2024/08
-* 國立中正大學資訊工程學系 助理教授 2021/08 - 2024/07<br>Assistant Professor, Department of Computer Science and Information Engineering, National Chung Cheng University. 2021/08 - 2024/07
-* 逢甲大學資訊工程學系 助理教授 2018/02 - 2021/07<br>Assistant Professor, Department of Information Engineering and Computer Science, Feng Chia University. 2018/02 - 2021/07
-* 逢甲大學資通安全研究中心 副主任 2020/01 - 2021/07<br>Deputy Director, Information and Communication Security Research Center, Feng Chia University. 2020/01 - 2021/07
-* 中華民國資訊安全學會 副秘書長 2018/05 - 2021/05<br>Deputy Secretary-general, Chinese Cryptology and Information Security Association. 2018/05 - 2021/05
-* 資訊工業策進會 正工程師 2017/08 - 2018/01<br>Senior Engineer, Institute for Information Industry. 2017/08 - 2018/01
-* 中央研究院 研究助理 2010/09 - 2013/12<br>Research Assistant, Academia Sinica. 2010/09 - 2013/12
+------
+* <span class="cv-date">2024/08 –</span><span class="cv-zh">國立中正大學資訊工程學系 副教授</span><span class="cv-en">Associate Professor, Department of Computer Science and Information Engineering, National Chung Cheng University</span>
+* <span class="cv-date">2025/04 –</span><span class="cv-zh">國立中正大學巨量資料科技研究中心 主任</span><span class="cv-en">Director, Big Data Technology Research Center, National Chung Cheng University</span>
+* <span class="cv-date">2024/02 –</span><span class="cv-zh">國立中正大學資訊處技術發展組 組長</span><span class="cv-en">Head of Research and Development, Office of Information Technology, National Chung Cheng University</span>
+* <span class="cv-date">2024/09 – 2026/01</span><span class="cv-zh">中華民國資訊安全學會 秘書長</span><span class="cv-en">Secretary-general, Chinese Cryptology and Information Security Association</span>
+* <span class="cv-date">2021/09 – 2024/08</span><span class="cv-zh">中華民國資訊安全學會 監事</span><span class="cv-en">Supervisor, Chinese Cryptology and Information Security Association</span>
+* <span class="cv-date">2022/01 – 2024/08</span><span class="cv-zh">中華民國資訊安全學會 教育與推廣委員會主委</span><span class="cv-en">Chairman of the Education and Promotion Committee, Chinese Cryptology and Information Security Association</span>
+* <span class="cv-date">2021/08 – 2024/07</span><span class="cv-zh">國立中正大學資訊工程學系 助理教授</span><span class="cv-en">Assistant Professor, Department of Computer Science and Information Engineering, National Chung Cheng University</span>
+* <span class="cv-date">2018/02 – 2021/07</span><span class="cv-zh">逢甲大學資訊工程學系 助理教授</span><span class="cv-en">Assistant Professor, Department of Information Engineering and Computer Science, Feng Chia University</span>
+* <span class="cv-date">2020/01 – 2021/07</span><span class="cv-zh">逢甲大學資通安全研究中心 副主任</span><span class="cv-en">Deputy Director, Information and Communication Security Research Center, Feng Chia University</span>
+* <span class="cv-date">2018/05 – 2021/05</span><span class="cv-zh">中華民國資訊安全學會 副秘書長</span><span class="cv-en">Deputy Secretary-general, Chinese Cryptology and Information Security Association</span>
+* <span class="cv-date">2017/08 – 2018/01</span><span class="cv-zh">資訊工業策進會 正工程師</span><span class="cv-en">Senior Engineer, Institute for Information Industry</span>
+* <span class="cv-date">2010/09 – 2013/12</span><span class="cv-zh">中央研究院 研究助理</span><span class="cv-en">Research Assistant, Academia Sinica</span>
+{: .cv-list}
 
 學術服務 Academic Service
-======
+------
 
-**學術會議服務與期刊編輯 Conference Services and Journal Editors**
+### 學術會議服務與期刊編輯 Conference Services and Journal Editors
 
 * Co-organizer, GenChal@INLG-2026 (Live Commentary Planning and Generation)
 * Program Co-chair, AsiaJCIS 2025
@@ -58,8 +60,9 @@ redirect_from:
 * Program Committee, The Web Conference 2020 (Poster session)
 * Program Committee, CISC 2020-2024
 * Guest Editor, Journal of Information Science and Engineering, 2023
+{: .plain-list}
 
-**期刊審稿 Journal Referee**
+### 期刊審稿 Journal Referee
 
 * ACM Transactions on Knowledge Discovery from Data
 * BMC Public Health
@@ -84,3 +87,4 @@ redirect_from:
 * Scientific Reports
 * Sensors
 * Taiwan Politics
+{: .plain-list .cols-2}

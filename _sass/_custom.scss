@@ -168,12 +168,14 @@ body {
 .plain-list li {
   position: relative;
   padding-left: 1.1em;
+  font-size: 0.95rem;
+  line-height: 1.6;
 
   &:before {
     content: "";
     position: absolute;
     left: 0.15em;
-    top: 0.72em;
+    top: 0.62em;
     width: 5px;
     height: 5px;
     border-radius: 50%;

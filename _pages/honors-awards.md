@@ -16,9 +16,9 @@ author_profile: true
 * <span class="yr">2024</span><span>國立中正大學工學院優秀論文獎</span>
 * <span class="yr">2023</span><span>臺灣綜合大學系統年輕學者創新研發成果選拔佳作獎</span>
 * <span class="yr">2022</span><span>國立嘉義大學附設實驗國民小學第二屆傑出校友</span>
-* <span class="yr">2026</span><span>國立中正大學獎勵特殊優秀人才獎勵 2022 -</span>
+* <span class="yr">2022–2026</span><span>國立中正大學獎勵特殊優秀人才獎勵</span>
 * <span class="yr">2021</span><span>逢甲大學資電學院行政服務優良教師</span>
-* <span class="yr">2021</span><span>逢甲大學學術研究獎勵 2019 -</span>
+* <span class="yr">2019–2021</span><span>逢甲大學學術研究獎勵</span>
 * <span class="yr">2018</span><span>科技部補助大專校院延攬特殊優秀人才</span>
 * <span class="yr">2017</span><span>中華民國資訊學會博士論文佳作獎</span>
 * <span class="yr">2017</span><span>國立臺灣大學電機系最佳博士論文獎</span>

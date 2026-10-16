@@ -79,10 +79,12 @@ body {
   line-height: 1.75;
 }
 
-/* the archive layout is wider than single pages; cap line length */
+/* the archive layout is wider than single pages; match .page's right
+   suffix so both start at the same left edge (a max-width on this
+   right-floated box pushes it away from the sidebar) */
 .archive {
   @include breakpoint($large) {
-    max-width: 50rem;
+    @include suffix(2 of 12);
   }
 
   a {

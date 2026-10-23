@@ -15,14 +15,14 @@
     });
   }
 
-  /* Publications: underline the site owner's name; keep CJK outlet names upright */
+  /* Publications: underline the site owner's name in author lists; keep CJK outlet names upright */
   var NAME = /(Ming-Hung Wang|王銘宏)/;
   each(doc.querySelectorAll(".pub-list li"), function (li) {
     var walker = doc.createTreeWalker(li, NodeFilter.SHOW_TEXT, null);
     var nodes = [];
     while (walker.nextNode()) {
       var n = walker.currentNode;
-      if (!n.parentNode.closest("strong, em, a") && NAME.test(n.nodeValue)) { nodes.push(n); }
+      if (!li.closest(".writings") && !n.parentNode.closest("strong, em, a") && NAME.test(n.nodeValue)) { nodes.push(n); }
     }
     each(nodes, function (n) {
       var frag = doc.createDocumentFragment();

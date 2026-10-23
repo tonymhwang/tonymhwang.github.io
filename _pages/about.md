@@ -18,11 +18,9 @@ hero:
     - en: "Head of Research and Development, Office of Information Technology"
       zh: "資訊處技術發展組 組長"
   interests:
-    - Cybersecurity
+    - Information Security
     - Computational Social Science
-    - Information Dissemination Security
-    - Content Safety
-    - Platform Integrity
+    - AI Safety
 
 # News card (Markdown allowed)
 news:

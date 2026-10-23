@@ -1,14 +1,13 @@
 ---
-layout: archive
+layout: page
 title: "經歷與服務 Experience and Service"
+title_zh: 經歷與服務
+title_en: Experience & Service
 permalink: /experience/
-author_profile: true
 redirect_from:
   - /cv/
   - /resume
 ---
-
-{% include base_path %}
 
 學歷 Education
 ------
@@ -60,7 +59,7 @@ redirect_from:
 * Program Committee, The Web Conference 2020 (Poster session)
 * Program Committee, CISC 2020-2024
 * Guest Editor, Journal of Information Science and Engineering, 2023
-{: .plain-list}
+{: .plain-list .cols-2}
 
 ### 期刊審稿 Journal Referee
 

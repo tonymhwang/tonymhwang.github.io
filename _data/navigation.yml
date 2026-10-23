@@ -1,13 +1,17 @@
-# main links
+# Main navigation: English label, Chinese label, URL
 main:
-  - title: "關於我 About"
+  - en: About
+    zh: 關於我
     url: /
 
-  - title: "經歷與服務 Experience and Service"
+  - en: Experience
+    zh: 經歷與服務
     url: /experience/
 
-  - title: "論文著述 Publications"
+  - en: Publications
+    zh: 論文著述
     url: /publications/
 
-  - title: "獲獎與榮譽 Honors & Awards"
+  - en: Honors
+    zh: 獲獎與榮譽
     url: /honors-awards/

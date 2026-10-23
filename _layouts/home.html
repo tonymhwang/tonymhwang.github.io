@@ -1,0 +1,73 @@
+---
+layout: base
+---
+{% assign h = page.hero %}
+<section class="hero">
+  <div class="container hero-inner">
+    <figure class="hero-photo">
+      <img src="{{ '/images/portrait.jpg' | relative_url }}" alt="Ming-Hung Wang 王銘宏" width="560" height="700">
+    </figure>
+    <div class="hero-text">
+      <p class="eyebrow">{{ h.eyebrow }}</p>
+      <h1 class="hero-name"><span lang="en">Ming-Hung Wang</span> <span class="hero-name-zh">王銘宏</span></h1>
+      <p class="hero-title" lang="en">{{ h.title_en }}</p>
+      <p class="hero-title-zh">{{ h.title_zh }}</p>
+      <ul class="hero-roles">
+        {% for r in h.roles %}<li><span lang="en">{{ r.en }}</span><span class="role-zh">{{ r.zh }}</span></li>{% endfor %}
+      </ul>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="mailto:{{ site.author.email }}">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6h16v12H4z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><path d="m4 7 8 6 8-6" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg>
+          Email
+        </a>
+        <a class="btn" href="{{ site.author.googlescholar }}">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4 2 9.5 12 15l10-5.5z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><path d="M6 12v4.5c0 1.4 2.7 3 6 3s6-1.6 6-3V12" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg>
+          Google Scholar
+        </a>
+      </div>
+      <ul class="chips" aria-label="Research interests">
+        {% for t in h.interests %}<li>{{ t }}</li>{% endfor %}
+      </ul>
+    </div>
+  </div>
+</section>
+
+{% if page.news %}
+<section class="container section">
+  <div class="news-card">
+    <span class="badge">News</span>
+    <div class="news-body">
+      <div lang="en">{{ page.news.en | markdownify }}</div>
+      <div>{{ page.news.zh | markdownify }}</div>
+    </div>
+  </div>
+</section>
+{% endif %}
+
+<section class="container section about">
+  <div class="section-head">
+    <h2>About <span class="h-zh">關於我</span></h2>
+    <div class="lang-switch" role="tablist" aria-label="Language" hidden>
+      <button type="button" role="tab" data-lang="en" aria-selected="true">English</button>
+      <button type="button" role="tab" data-lang="zh-Hant" aria-selected="false">中文</button>
+    </div>
+  </div>
+  <div class="prose about-body">
+    {{ content }}
+  </div>
+</section>
+
+{% if page.explore %}
+<section class="container section section-last">
+  <div class="explore">
+    {% for card in page.explore %}
+    <a class="explore-card" href="{{ card.url | relative_url }}">
+      <span class="explore-zh">{{ card.zh }}</span>
+      <span class="explore-en">{{ card.en }}</span>
+      <span class="explore-desc">{{ card.desc }}</span>
+      <span class="explore-arrow" aria-hidden="true">→</span>
+    </a>
+    {% endfor %}
+  </div>
+</section>
+{% endif %}

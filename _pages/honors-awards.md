@@ -1,11 +1,10 @@
 ---
-layout: archive
+layout: page
 title: "獲獎與榮譽 Honors & Awards"
+title_zh: 獲獎與榮譽
+title_en: Honors & Awards
 permalink: /honors-awards/
-author_profile: true
 ---
-
-{% include base_path %}
 
 獎項
 ------

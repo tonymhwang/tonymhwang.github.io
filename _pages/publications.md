@@ -1,13 +1,11 @@
 ---
-layout: archive
+layout: page
 title: "論文著述 Publications"
+title_zh: 論文著述
+title_en: Publications
+lead: 'Selected works. Full list on <a href="https://scholar.google.com.tw/citations?user=ZuP97eoAAAAJ&hl=zh-TW">Google Scholar</a>; citation counts (10+) from Google Scholar as of October 2026.'
 permalink: /publications/
-author_profile: true
 ---
-
-{% include base_path %}
-
-<p class="pub-note">Complete list: <a href="https://scholar.google.com.tw/citations?user=ZuP97eoAAAAJ&hl=zh-TW">Google Scholar</a> · Citation counts (10+) from Google Scholar, as of October 2026.</p>
 
 Selected Journal Articles
 ------

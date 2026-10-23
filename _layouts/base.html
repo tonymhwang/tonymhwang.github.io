@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="zh-Hant" class="no-js">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  {% if page.url == "/" %}{% assign doc_title = site.title %}{% else %}{% assign doc_title = page.title | append: " · " | append: site.title %}{% endif %}
+  {% assign doc_desc = page.description | default: site.description %}
+  <title>{{ doc_title }}</title>
+  <meta name="description" content="{{ doc_desc }}">
+  <link rel="canonical" href="{{ page.url | absolute_url }}">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="{{ doc_title }}">
+  <meta property="og:description" content="{{ doc_desc }}">
+  <meta property="og:url" content="{{ page.url | absolute_url }}">
+  <meta property="og:image" content="{{ '/images/portrait.jpg' | absolute_url }}">
+  <meta name="theme-color" content="#f7f6f2" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0e1318" media="(prefers-color-scheme: dark)">
+  <link rel="icon" href="{{ '/images/favicon.svg' | relative_url }}" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="{{ '/images/apple-touch-icon.png' | relative_url }}">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+TC:wght@400;500;700&family=Noto+Serif+TC:wght@600;700&family=Source+Serif+4:opsz,wght@8..60,600;8..60,700&display=swap">
+  <link rel="stylesheet" href="{{ '/assets/css/site.css' | relative_url }}?v={{ site.time | date: '%s' }}">
+  <script>document.documentElement.className = "js";</script>
+  {% if page.url == "/" %}
+  <script type="application/ld+json">
+  {"@context": "https://schema.org", "@type": "Person", "name": "Ming-Hung Wang", "alternateName": "王銘宏",
+   "jobTitle": "Associate Professor", "affiliation": {"@type": "CollegeOrUniversity", "name": "National Chung Cheng University"},
+   "url": "{{ '/' | absolute_url }}", "image": "{{ '/images/portrait.jpg' | absolute_url }}", "sameAs": ["{{ site.author.googlescholar }}"]}
+  </script>
+  {% endif %}
+</head>
+<body{% if page.url == "/" %} class="is-home"{% endif %}>
+  <a class="skip-link" href="#main">跳到主要內容 Skip to content</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="{{ '/' | relative_url }}">
+        <span class="brand-en">Ming-Hung Wang</span>
+        <span class="brand-zh">王銘宏</span>
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+      <nav id="site-nav" class="site-nav" aria-label="Main">
+        {% for link in site.data.navigation.main %}
+        <a href="{{ link.url | relative_url }}"{% if page.url == link.url %} aria-current="page"{% endif %}>
+          <span class="nav-en">{{ link.en }}</span>
+          <span class="nav-zh">{{ link.zh }}</span>
+        </a>
+        {% endfor %}
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    {{ content }}
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-id">
+        <strong>Ming-Hung Wang 王銘宏</strong>
+        <span>Department of Computer Science and Information Engineering</span>
+        <span>National Chung Cheng University</span>
+      </div>
+      <div class="footer-meta">
+        <span><a href="mailto:{{ site.author.email }}">Email</a> · <a href="{{ site.author.googlescholar }}">Google Scholar</a></span>
+        <span>© {{ site.time | date: '%Y' }} Ming-Hung Wang · Updated {{ site.time | date: '%Y-%m-%d' }}</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="{{ '/assets/js/site.js' | relative_url }}?v={{ site.time | date: '%s' }}" defer></script>
+</body>
+</html>

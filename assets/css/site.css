@@ -184,7 +184,7 @@ a:hover { color: var(--accent-hover); text-decoration: underline; }
 }
 
 /* --------------------------------------------------------------------------
-   Home: hero, news, about, explore
+   Home: hero, news, about
    -------------------------------------------------------------------------- */
 
 .hero { padding: 72px 0 32px; }
@@ -316,32 +316,11 @@ a:hover { color: var(--accent-hover); text-decoration: underline; }
 .lang-panel[lang^="zh"] { line-height: 1.9; }
 .no-js .lang-panel + .lang-panel { margin-top: 2em; padding-top: 2em; border-top: 1px solid var(--line); }
 
-.explore { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px; margin-top: 56px; }
-.explore-card {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  gap: 2px;
-  padding: 22px 24px;
-  border: 1px solid var(--line);
-  border-radius: var(--radius);
-  background: var(--surface);
-  color: var(--text);
-  transition: border-color .2s, box-shadow .2s, transform .2s;
-}
-.explore-card:hover { border-color: var(--accent-line); box-shadow: var(--shadow); transform: translateY(-2px); color: var(--text); text-decoration: none; }
-.explore-zh { font-size: .78rem; font-weight: 600; letter-spacing: .1em; color: var(--accent); }
-.explore-en { font-family: var(--serif); font-size: 1.25rem; font-weight: 700; color: var(--ink); }
-.explore-desc { margin-top: 4px; font-size: .88rem; line-height: 1.5; color: var(--muted); }
-.explore-arrow { position: absolute; top: 20px; right: 22px; color: var(--faint); transition: transform .2s, color .2s; }
-.explore-card:hover .explore-arrow { transform: translateX(3px); color: var(--accent); }
-
 @media (max-width: 860px) {
   .hero { padding: 36px 0 12px; }
   .hero-inner { grid-template-columns: 1fr; gap: 32px; }
   .hero-photo { max-width: 220px; }
   .hero-name-zh { display: block; margin: 8px 0 0; }
-  .explore { grid-template-columns: 1fr; }
   .news-card { grid-template-columns: 1fr; padding: 20px 22px; }
 }
 
@@ -552,7 +531,7 @@ a.cite:hover { background: var(--accent); border-color: var(--accent); color: va
 }
 
 @media print {
-  .site-header, .site-footer, .toc, .lang-switch, .hero-actions, .explore, .skip-link { display: none !important; }
+  .site-header, .site-footer, .toc, .lang-switch, .hero-actions, .skip-link { display: none !important; }
   body { background: #fff; color: #000; }
   .lang-panel[hidden] { display: block; }
   a { color: inherit; }

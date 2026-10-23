@@ -23,8 +23,8 @@ interests:
 
 # News card (Markdown allowed)
 news:
-  en: "We are recruiting graduate and undergraduate students interested in **information security** and **computational social science**! If you are interested, please email me (tonymhwang at gmail.com) with your CV, transcript, and the research topics that interest you."
-  zh: "我們正在招募對**資訊安全**與**計算社會科學**感興趣的博士生、碩士生及專題生。有興趣的同學歡迎來信 tonymhwang at gmail.com，並附上履歷、成績單與有興趣的研究方向。"
+  en: "We are recruiting graduate and undergraduate students interested in **information security**, **computational social science**, and **AI safety**! If you are interested, please [email me](mailto:tonymhwang@gmail.com) with your CV, transcript, and the research topics that interest you."
+  zh: "我們正在招募對**資訊安全**、**計算社會科學**與 **AI 安全**感興趣的博士生、碩士生及專題生。有興趣的同學歡迎[來信](mailto:tonymhwang@gmail.com)，並附上履歷、成績單與有興趣的研究方向。"
 ---
 
 <div class="lang-panel" lang="en" markdown="1">

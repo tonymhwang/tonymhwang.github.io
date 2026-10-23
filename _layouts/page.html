@@ -3,8 +3,7 @@ layout: base
 ---
 <header class="page-head">
   <div class="container">
-    {% if page.title_zh %}<p class="eyebrow">{{ page.title_zh }}</p>{% endif %}
-    <h1 class="page-title">{{ page.title_en | default: page.title }}</h1>
+    <h1 class="page-title">{{ page.title }}</h1>
     {% if page.lead %}<p class="page-lead">{{ page.lead }}</p>{% endif %}
   </div>
 </header>
@@ -13,8 +12,4 @@ layout: base
   <article class="prose page-content">
     {{ content }}
   </article>
-  <aside class="toc" aria-label="On this page" hidden>
-    <p class="toc-title">On this page</p>
-    <ol></ol>
-  </aside>
 </div>

@@ -1,8 +1,7 @@
 ---
 layout: page
 title: "經歷與服務 Experience and Service"
-title_zh: 經歷與服務
-title_en: Experience & Service
+description: "Education, academic appointments, and professional service of Ming-Hung Wang (王銘宏), National Chung Cheng University."
 permalink: /experience/
 redirect_from:
   - /cv/
@@ -78,6 +77,7 @@ redirect_from:
 * IEEE Transactions on Computational Social Systems
 * IEEE Transactions on Information Forensics and Security
 * IEEE Transactions on Reliability
+* IEEE Transactions on Services Computing
 * IEICE Transactions on Information and Systems
 * Journal of Computational Social Science
 * Journal of Information Security and Applications

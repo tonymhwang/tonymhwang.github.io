@@ -1,8 +1,7 @@
 ---
 layout: page
 title: "獲獎與榮譽 Honors & Awards"
-title_zh: 獲獎與榮譽
-title_en: Honors & Awards
+description: "Honors, teaching awards, and student advising awards of Ming-Hung Wang (王銘宏), National Chung Cheng University."
 permalink: /honors-awards/
 ---
 

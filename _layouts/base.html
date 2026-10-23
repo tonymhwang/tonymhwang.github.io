@@ -3,23 +3,23 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  {% if page.url == "/" %}{% assign doc_title = site.title %}{% else %}{% assign doc_title = page.title | append: " · " | append: site.title %}{% endif %}
+  {% if page.url == "/" %}{% assign doc_title = site.title | append: " · National Chung Cheng University" %}{% else %}{% assign doc_title = page.title | append: " · " | append: site.title %}{% endif %}
   {% assign doc_desc = page.description | default: site.description %}
   <title>{{ doc_title }}</title>
   <meta name="description" content="{{ doc_desc }}">
   <link rel="canonical" href="{{ page.url | absolute_url }}">
+  {% if site.google_site_verification %}<meta name="google-site-verification" content="{{ site.google_site_verification }}">{% endif %}
   <meta property="og:type" content="website">
   <meta property="og:title" content="{{ doc_title }}">
   <meta property="og:description" content="{{ doc_desc }}">
   <meta property="og:url" content="{{ page.url | absolute_url }}">
   <meta property="og:image" content="{{ '/images/portrait.jpg' | absolute_url }}">
-  <meta name="theme-color" content="#f7f6f2" media="(prefers-color-scheme: light)">
-  <meta name="theme-color" content="#0e1318" media="(prefers-color-scheme: dark)">
+  <meta name="theme-color" content="#ffffff">
   <link rel="icon" href="{{ '/images/favicon.svg' | relative_url }}" type="image/svg+xml">
   <link rel="apple-touch-icon" href="{{ '/images/apple-touch-icon.png' | relative_url }}">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+TC:wght@400;500;700&family=Noto+Serif+TC:wght@600;700&family=Source+Serif+4:opsz,wght@8..60,600;8..60,700&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Noto+Sans+TC:wght@400;500;700&display=swap">
   <link rel="stylesheet" href="{{ '/assets/css/site.css' | relative_url }}?v={{ site.time | date: '%s' }}">
   <script>document.documentElement.className = "js";</script>
   {% if page.url == "/" %}
@@ -35,19 +35,13 @@
 
   <header class="site-header">
     <div class="container header-inner">
-      <a class="brand" href="{{ '/' | relative_url }}">
-        <span class="brand-en">Ming-Hung Wang</span>
-        <span class="brand-zh">王銘宏</span>
-      </a>
+      <a class="brand" href="{{ '/' | relative_url }}">Ming-Hung Wang 王銘宏</a>
       <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Menu">
         <span></span><span></span><span></span>
       </button>
       <nav id="site-nav" class="site-nav" aria-label="Main">
         {% for link in site.data.navigation.main %}
-        <a href="{{ link.url | relative_url }}"{% if page.url == link.url %} aria-current="page"{% endif %}>
-          <span class="nav-en">{{ link.en }}</span>
-          <span class="nav-zh">{{ link.zh }}</span>
-        </a>
+        <a href="{{ link.url | relative_url }}"{% if page.url == link.url %} aria-current="page"{% endif %}><span class="nav-zh">{{ link.zh }}</span><span class="nav-en">{{ link.en }}</span></a>
         {% endfor %}
       </nav>
     </div>
@@ -59,15 +53,8 @@
 
   <footer class="site-footer">
     <div class="container footer-inner">
-      <div class="footer-id">
-        <strong>Ming-Hung Wang 王銘宏</strong>
-        <span>Department of Computer Science and Information Engineering</span>
-        <span>National Chung Cheng University</span>
-      </div>
-      <div class="footer-meta">
-        <span><a href="mailto:{{ site.author.email }}">Email</a> · <a href="{{ site.author.googlescholar }}">Google Scholar</a></span>
-        <span>© {{ site.time | date: '%Y' }} Ming-Hung Wang · Updated {{ site.time | date: '%Y-%m-%d' }}</span>
-      </div>
+      <span>© {{ site.time | date: '%Y' }} Ming-Hung Wang 王銘宏 · Department of Computer Science and Information Engineering, National Chung Cheng University</span>
+      <span>Last updated {{ site.time | date: '%Y-%m-%d' }}</span>
     </div>
   </footer>
 

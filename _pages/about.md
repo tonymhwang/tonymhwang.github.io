@@ -1,31 +1,30 @@
 ---
 layout: home
 permalink: /
-title: "關於我 About"
-description: "Ming-Hung Wang (王銘宏), Associate Professor of Computer Science and Information Engineering at National Chung Cheng University, working on cybersecurity and computational social science."
+title: "關於我 About me"
+description: "Ming-Hung Wang (王銘宏), Associate Professor of Computer Science and Information Engineering at National Chung Cheng University, working on information security, computational social science, and AI safety."
 redirect_from:
   - /about/
   - /about.html
 
-# Hero block at the top of the page
-hero:
-  eyebrow: "Digital Society and Security Lab · DIGI-SSL"
-  title_en: "Associate Professor, Department of Computer Science and Information Engineering, National Chung Cheng University"
+photo: /images/photo.jpg
+cv: /files/Ming-Hung_Wang_CV.pdf
+
+# Name block under the photo
+profile:
+  title_en: "Associate Professor"
+  affiliation_en: "Department of Computer Science and Information Engineering, National Chung Cheng University"
   title_zh: "國立中正大學資訊工程學系 副教授"
-  roles:
-    - en: "Director, Big Data Technology Research Center"
-      zh: "巨量資料科技研究中心 主任"
-    - en: "Head of Research and Development, Office of Information Technology"
-      zh: "資訊處技術發展組 組長"
-  interests:
-    - Information Security
-    - Computational Social Science
-    - AI Safety
+
+interests:
+  - Information Security
+  - Computational Social Science
+  - AI Safety
 
 # News card (Markdown allowed)
 news:
-  en: "We are recruiting graduate and undergraduate students interested in **information security** and **computational social science**! Feel free to email me (tonymhwang at gmail.com) for more information."
-  zh: "我們正在招募對**資訊安全**與**計算社會科學**感興趣的博士生、碩士生及專題生，歡迎透過 tonymhwang at gmail.com 與我聯繫。"
+  en: "We are recruiting graduate and undergraduate students interested in **information security** and **computational social science**! If you are interested, please email me (tonymhwang at gmail.com) with your CV, transcript, and the research topics that interest you."
+  zh: "我們正在招募對**資訊安全**與**計算社會科學**感興趣的博士生、碩士生及專題生。有興趣的同學歡迎來信 tonymhwang at gmail.com，並附上履歷、成績單與有興趣的研究方向。"
 ---
 
 <div class="lang-panel" lang="en" markdown="1">

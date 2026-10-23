@@ -8,7 +8,6 @@ redirect_from:
   - /about.html
 
 photo: /images/photo.jpg
-cv: /files/Ming-Hung_Wang_CV.pdf
 
 # Name block under the photo
 profile:

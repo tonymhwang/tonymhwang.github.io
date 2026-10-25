@@ -10,10 +10,10 @@ redirect_from:
 
 學歷 Education
 ------
-* Ph.D. in Electrical Engineering, National Taiwan University, 2017
-* M.S. in Communication Engineering, National Tsing Hua University, 2010
-* B.S. in Computer Science, National Tsing Hua University, 2008
-{: .plain-list}
+* <span class="cv-date">2017</span><span class="cv-zh">國立臺灣大學 電機工程博士</span><span class="cv-en">Ph.D. in Electrical Engineering, National Taiwan University</span>
+* <span class="cv-date">2010</span><span class="cv-zh">國立清華大學 通訊工程碩士</span><span class="cv-en">M.S. in Communication Engineering, National Tsing Hua University</span>
+* <span class="cv-date">2008</span><span class="cv-zh">國立清華大學 資訊工程學士</span><span class="cv-en">B.S. in Computer Science, National Tsing Hua University</span>
+{: .cv-list}
 
 經歷 Experience
 ------

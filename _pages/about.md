@@ -33,7 +33,7 @@ I lead the **Digital Society and Security Lab (DIGI-SSL)**, where our research s
 
 Our work focuses on three areas: **information dissemination security**, **content safety**, and **platform integrity**, with growing attention to the risks posed by generative models. Through cross-disciplinary, multi-platform analysis, we aim to build a safer, fairer, and more sustainable digital society.
 
-Our research has been published in international journals and conferences and covered by NHK, Nikkei Asia, Voice of America, and CommonWealth Magazine. Recognition includes the IEEE Tainan Section Best Young Professional Member Award and the NSTC Excellent Young Scholars Program.
+Our research has been published in international journals and conferences and covered by NHK, Nikkei Asia, Voice of America, and CommonWealth Magazine. Recognition includes the IEEE Tainan Section Best Young Professional Member Award, the Young Scholar Award and the Excellent Teaching Performance Award of National Chung Cheng University, and the NSTC Excellent Young Scholars Program.
 
 </div>
 
@@ -45,6 +45,6 @@ Our research has been published in international journals and conferences and co
 
 我們關注的議題涵蓋**資訊傳播安全、資訊內容安全與資訊平台安全**三個面向，近年也特別關注生成式人工智慧帶來的新風險。透過跨領域的方法與跨平台的數據分析，我們致力於建構更安全、公正且永續的數位社會。
 
-研究成果發表於國際期刊與會議，並獲 NHK、日經亞洲、美國之音、天下雜誌等媒體報導；曾獲 IEEE Tainan Section Best Young Professional Member Award 與國科會優秀年輕學者研究計畫等肯定。
+研究成果發表於國際期刊與會議，並獲 NHK、日經亞洲、美國之音、天下雜誌等媒體報導；曾獲 IEEE Tainan Section Best Young Professional Member Award、國立中正大學青年學者獎、國立中正大學教師優良教學獎與國科會優秀年輕學者研究計畫等肯定。
 
 </div>

@@ -1,0 +1,41 @@
+# Site settings
+title: "Ming-Hung Wang 王銘宏"
+description: "Associate Professor, Department of Computer Science and Information Engineering, National Chung Cheng University"
+url: https://tonymhwang.github.io
+baseurl: ""
+timezone: Asia/Taipei
+
+# Google Search Console verification code; leave empty until available
+google_site_verification:
+
+author:
+  name: "Ming-Hung Wang 王銘宏"
+  email: "tonymhwang@gmail.com"
+  googlescholar: "https://scholar.google.com.tw/citations?user=ZuP97eoAAAAJ"
+
+# Jekyll skips folders starting with "_" unless they are listed here
+include:
+  - _pages
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  enable_coderay: false
+
+defaults:
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: page
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-redirect-from

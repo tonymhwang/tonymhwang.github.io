@@ -1,0 +1,17 @@
+# Main navigation: English label, Chinese label, URL
+main:
+  - en: About
+    zh: 關於我
+    url: /
+
+  - en: Experience
+    zh: 經歷與服務
+    url: /experience/
+
+  - en: Publications
+    zh: 論文著述
+    url: /publications/
+
+  - en: Honors
+    zh: 獲獎與榮譽
+    url: /honors-awards/

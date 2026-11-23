@@ -34,6 +34,7 @@ permalink: /honors-awards/
 
 指導學生
 ------
+* <span class="yr">2026</span><span>ICPC 2026 臺灣區線上程式競賽指導老師（1 銅牌）</span>
 * <span class="yr">2026</span><span>第 56 屆全國技能競賽青年組指導老師（網路安全職類佳作）</span>
 * <span class="yr">2026</span><span>第 56 屆全國技能競賽南區分區技能競賽青年組指導老師（網路安全職類第一名）</span>
 * <span class="yr">2025</span><span>114 年度全國大專電腦軟體設計競賽指導老師（2 佳作）</span>

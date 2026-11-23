@@ -29,7 +29,7 @@ Selected Conference Proceedings
 ------
 
 * **Same Person, Different Perception: Adversarial Identity Substitution against LVLM-Based Out-of-Context Detection.** Zhi-Tang Lin, Sih-Cin Huang, Ming-Hung Wang. *ACCV 2026.*
-* **Linguistic Cues in Political Debates: Lexical Choices and Evaluative Framing in GPT-Generated Commentary.** Yu-Yu Chang, Chung-Chi Chen, Ming-Hung Wang. *AACL-IJCNLP 2026 (Findings).*
+* **Linguistic Cues in Political Debates: Lexical Choices and Evaluative Framing in GPT-Generated Commentary.** Yu-Yu Chang, Chung-Chi Chen, Ming-Hung Wang. *AACL-IJCNLP 2026 (Findings).* <a class="doi" href="https://doi.org/10.18653/2026.findings-aacl.42">DOI</a>
 * **DR-CUP: A Dataset on Real-time Commentary in U.S. Presidential Debates.** Yu-Yu Chang, Huan-Wen Ho, Chung-Chi Chen, Ming-Hung Wang. *LREC 2026.* <a class="doi" href="https://doi.org/10.63317/3xv2rb4s2iyn">DOI</a>
 * **MemeUMPIRE: Zero-Shot Multi-Agent Debate with Judge for Explainable Harmful-Meme Reasoning.** Sih-Cin Huang, Meng-Rong Wu, Tuang Hee Low, Tomohiro Morikawa, Harry Chandra Tanuwidjaja, Takeshi Takahashi, Ming-Hung Wang. *IEEE ICC 2026.* <a class="doi" href="https://doi.org/10.1109/icc59461.2026.11587811">DOI</a>
 * **Sockpuppets Detection Using Markov-Driven Graph Convolutional Networks with Ensemble Learning.** Chun-I Fan, Ming-Feng Tsai, Chun-Pin Hu, Ming-Hung Wang. *IEEE DSC 2024.* <a class="doi" href="https://doi.org/10.1109/dsc63325.2024.00018">DOI</a>

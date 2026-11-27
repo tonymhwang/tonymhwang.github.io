@@ -34,6 +34,15 @@ defaults:
       type: pages
     values:
       layout: page
+  # Publications page settings live here so _pages/publications.md holds only the list
+  - scope:
+      path: "_pages/publications.md"
+    values:
+      title: "論文著述 Publications"
+      description: "Selected journal articles, conference papers, and other writings by Ming-Hung Wang (王銘宏), National Chung Cheng University."
+      lead: 'Selected works. Full list on <a href="https://scholar.google.com.tw/citations?user=ZuP97eoAAAAJ&hl=zh-TW">Google Scholar</a>; citation counts (10+) from Google Scholar as of October 2026.'
+      permalink: /publications/
+      pub_list: true
 
 plugins:
   - jekyll-sitemap

@@ -1,19 +1,17 @@
 ---
-layout: page
-title: "論文著述 Publications"
-description: "Selected journal articles, conference papers, and other writings by Ming-Hung Wang (王銘宏), National Chung Cheng University."
-lead: 'Selected works. Full list on <a href="https://scholar.google.com.tw/citations?user=ZuP97eoAAAAJ&hl=zh-TW">Google Scholar</a>; citation counts (10+) from Google Scholar as of October 2026.'
-permalink: /publications/
-pub_list: true
-
-# ── 新增發表 ──────────────────────────────────────────────
-# 在對應分類加一行（最新的放最上面），存檔推上 GitHub 網站就會更新。
+# ── 如何新增發表 ─────────────────────────────────────────
+# 只要改這個檔：在對應分類加一行（最新的放最上面），存檔後網站自動更新。
+#
 # 期刊：- **論文標題.** 作者一, 作者二, Ming-Hung Wang\*. *期刊名, 年份, 卷 (期), 頁碼. (SCI Q1)* [DOI](https://doi.org/10.xxxx/xxxxx)
 # 會議：- **論文標題.** 作者一, Ming-Hung Wang. *會議簡稱 年份.* [DOI](https://doi.org/10.xxxx/xxxxx)
-# 引用：在 DOI 後面加 [Cited by 12](Google Scholar「被引用」頁網址)
 # 文章：- **[文章標題](文章網址)** 作者 *媒體名稱* 2026-01-01
-# 規則：Ming-Hung Wang／王銘宏 會自動加底線；通訊作者在名字後加 \*；
-#       還沒有 DOI 就不要寫 [DOI](...)；編號由網站自動產生。
+# 被引用次數：在 DOI 後面加 [Cited by 12](Google Scholar「被引用」頁網址)
+#
+# 小提醒：
+#   · 通訊作者在名字後加 \*
+#   · 還沒有 DOI 就不寫 [DOI](...)
+#   · 編號、DOI 灰色小字、Ming-Hung Wang／王銘宏 的底線都會自動產生
+#   · 這兩行 --- 之間是說明，請保留，不會顯示在網站上
 # ─────────────────────────────────────────────────────────
 ---
 

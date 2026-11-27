@@ -10,6 +10,11 @@ layout: base
 
 <div class="container page-body">
   <article class="prose page-content">
+    {%- if page.pub_list %}
+    {%- comment %} Publications are plain Markdown; add the list, DOI and citation classes here {% endcomment %}
+    {{ content | replace: '<ul>', '<ul class="pub-list">' | replace: '<a href="https://doi.org/', '<a class="doi" href="https://doi.org/' | replace: '<a href="https://scholar.google.com/scholar?cites=', '<a class="cite" href="https://scholar.google.com/scholar?cites=' }}
+    {%- else %}
     {{ content }}
+    {%- endif %}
   </article>
 </div>

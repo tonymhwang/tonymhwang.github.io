@@ -22,7 +22,7 @@
     var nodes = [];
     while (walker.nextNode()) {
       var n = walker.currentNode;
-      if (!li.closest(".writings") && !n.parentNode.closest("strong, em, a") && NAME.test(n.nodeValue)) { nodes.push(n); }
+      if (!li.closest(".writings, #other-writings + ul") && !n.parentNode.closest("strong, em, a") && NAME.test(n.nodeValue)) { nodes.push(n); }
     }
     each(nodes, function (n) {
       var frag = doc.createDocumentFragment();

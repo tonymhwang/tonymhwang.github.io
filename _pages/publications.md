@@ -42,7 +42,6 @@ Selected Conference Proceedings
 * **SDN Storage: A Stream-based Storage System over Software-defined Networks.** Ming-Hung Wang, Po-Wen Chi, Jing-Wei Guo, Chin-Laung Lei. *IEEE INFOCOM 2016 (poster).* <a class="doi" href="https://doi.org/10.1109/infcomw.2016.7562146">DOI</a> <a class="cite" href="https://scholar.google.com/scholar?cites=649653779522671073">Cited by 12</a>
 * **Modelling Polarity of Articles and Identifying Influential Authors through Social Movements.** Ming-Hung Wang, Chin-Laung Lei. *IEEE SMC 2015.* <a class="doi" href="https://doi.org/10.1109/smc.2015.293">DOI</a>
 * **Understanding Potential Microtask Workers for Paid Crowdsourcing.** Ming-Hung Wang, Kuan-Ta Chen, Shuo-Yang Wang, Chin-Laung Lei. *AAAI HCOMP 2013 (Works-in-Progress Track).* <a class="doi" href="https://doi.org/10.1609/hcomp.v1i1.13123">DOI</a>
-* **Privacy Crisis due to Crisis Response on the Web.** Shao-Yu Wu, Ming-Hung Wang, Kuan-Ta Chen. *IEEE TrustCom 2011.* <a class="doi" href="https://doi.org/10.1109/trustcom.2011.28">DOI</a>
 {: .pub-list}
 
 Other Writings
